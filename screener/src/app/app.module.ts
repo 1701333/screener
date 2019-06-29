@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { GitHubControllerComponent } from './git-hub-controller/git-hub-controller.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GitHubControllerComponent
   ],
   imports: [
     BrowserModule
